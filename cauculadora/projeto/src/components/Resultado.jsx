@@ -1,9 +1,8 @@
-
 function Resultado({r,s}){
     
     return(
         <div>
-          <p>IMC: {r.toFixed(2)}</p>
+          <p>IMC: {r}</p>
           <p>Situação: {s} </p>
         </div>
       )
